@@ -6,7 +6,9 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 
 [markdown语法快速参考](how/quickstart.md)
 
-## 节点
+## 节点网络
+
+[Jouleverse主网节点搭建指南](network/mainnet-setup-guide.md)
 
 ## PoWh
 
