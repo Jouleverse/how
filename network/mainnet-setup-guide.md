@@ -2,6 +2,7 @@
 
 版本：
 
+* 1.9 evan.j: 2024.1.24 增加对于重做数据的警告，以及更多指引
 * 1.8 evan.j: 2024.1.19 迁移到Jouleverse知识库
 * 1.7 evan.j: 2024.1.17 修正防火墙端口号。误将测试网端口号合并进来了。感谢 @老谢 指出错误。
 * 1.6 evan.j: 2024.1.17 补充升级节点停止docker的前置操作。增加节点包镜像。增加入网一章节，包括添加审计节点，以及检查节点包版本号等
@@ -70,8 +71,7 @@ b3e551b40d39f71f8ac0ca2b44bdfb0a320d2ca5  jouleverse-node-20240115.tar.gz
 
 ## 初始化数据目录
 
-Note: **【警告：如果是升级节点而不是第一次搭建，请不要重新初始化数据目录！否则可能会造成节点信息变化，审计报错！】**
-
+Note: **【警告：如果只是重启/升级节点而不是第一次搭建，请不要重新初始化数据目录！否则可能会造成节点信息变化，审计报错！】**
 
 如果是第一次搭建和运行节点：
 
@@ -84,15 +84,17 @@ sudo docker run -v ~/jouleverse-node-20240115:/j -v ~/data:/data -it ubuntu:20.0
 
 ---
 
+Note: **【再次警告：如果只是重启节点/升级节点而不是第一次搭建，请不要重做节点数据！否则可能会造成节点信息变化，审计报错！】**
+
 如果是重做节点数据，重新运行节点，但是希望保持节点id和enode不变（方法关键在于```备份nodekey```）：
 
-> 备份nodekey：```sudo cp ~/data/mainnet/geth/nodekey ~/data/nodekey-20240119.bak```（请把20240119改为你操作的日期，下同）
+> 备份nodekey：```sudo cp ~/data/mainnet/geth/nodekey ~/data/nodekey-20240119.bak```（请把20240119改为你操作的日期；如果你在当日进行了多次操作，请把次数加在bak后面，比如 nodekey-20240119.bak2 nodekey-20240119.bak3 等等，下同）
 
-> 查看一下备份的nodekey：```sudo cat ~/data/nodekey-20240119.bak && echo``` 内容应该是一个十六进制字符串（没有开头的0x）
+> 查看一下备份的nodekey：```sudo cat ~/data/nodekey-20240119.bak && echo``` 内容应该是一个十六进制字符串（没有开头的0x）【nodekey属于机密内容！不要截屏！不要截屏！不要截屏！】
 
-> 删除节点数据：```sudo mv ~/data/mainnet ~/data/mainnet.old```
+> 删除节点数据：```sudo mv ~/data/mainnet ~/data/mainnet-20240119.old``` （请把20240119改为你操作的日期；如果你在当日进行了多次操作，请把次数加在old后面，比如 mainnet-20240119.old2 mainnet-20240119.old3 等等）
 
-> 重新初始化mainnet数据目录：命令同上
+> 重新初始化mainnet数据目录：命令见上面
 
 > 把刚刚备份的nodekey文件拷贝到新的mainnet目录里：```sudo cp ~/data/nodekey-20240119.bak ~/data/mainnet/geth/nodekey```
 
