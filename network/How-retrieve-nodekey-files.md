@@ -86,7 +86,7 @@ INFO [09-28|12:52:46.944] Imported new chain segment               blocks=2048 t
 INFO [09-28|12:52:50.256] Imported new chain segment               blocks=2048 txs=1  mgas=0.021 elapsed=3.291s      mgasps=0.006 number=44087 hash=3ed781..448020 age=11mo2w5d  dirty=2.69KiB
 ```
 
-ctrl+c终止日志刷新
+(6)ctrl+c终止日志刷新
 
 8、查看当前节点信息
 
