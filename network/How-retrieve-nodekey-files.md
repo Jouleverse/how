@@ -23,7 +23,7 @@ lighthouse@VM-8-2-ubuntu:~$```sudo docker exec -it jouleverse-mainnet /j/geth at
 
 2、进入管理员模式
 
-lighthouse@VM-8-2-ubuntu:~$```suto -s```
+lighthouse@VM-8-2-ubuntu:~$```sudo -s```
 
 3、查找叫nodekey的文件，示例：
 
