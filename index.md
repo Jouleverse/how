@@ -12,6 +12,9 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 
 [Jouleverse主网节点搭建指南](network/mainnet-setup-guide.md)
 
+[如何创建虚拟内存(Swap) ](network/how-to-make-swap.md)
+
+
 ## PoWh
 
 
