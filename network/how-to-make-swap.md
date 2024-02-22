@@ -36,12 +36,16 @@ sudo mkswap /swapGeth
 # 5. 在 `/etc/fstab` 文件中，增加配置，用于让系统重启后，也可以继续生效
 sudo sh -c 'echo "/swapGeth swap swap sw 0 0" >> /etc/fstab'
 
-
 # 6. 验证`/etc/fstab`中，结尾是否包含了 `/swapGeth swap swap sw 0 0`
 tail /etc/fstab
 
 # 7. 启用Swap
 sudo swapon /swapGeth
 
-```
+# 8. 检查系统是否启用了swap，结果 `vm.swappiness = 0` 表示未启用，大于0表示启用
+sysctl -a | grep vm.swappiness
 
+# 9. 如果系统未启用swap，需要运行下述命令启用一下。运行后请再次执行上一条（第8条）命令，确认启用成功，即 `vm.swappiness = 60`
+sudo sysctl vm.swappiness=60
+
+```
