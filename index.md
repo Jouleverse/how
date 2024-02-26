@@ -4,13 +4,15 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 
 ## 知识库
 
-[markdown语法快速参考](how/quickstart.md)
+[markdown语法快速参考](contribute/quickstart.md)
 
-[如何向知识库贡献内容](how/contribute.md)
+[如何向知识库贡献内容](contribute/tutorial.md)
 
 ## 节点网络
 
 [Jouleverse主网节点搭建指南](network/mainnet-setup-guide.md)
+
+[如何找回nodekey文件](network/how-to-recover-nodekey.md)
 
 [如何创建虚拟内存(Swap) ](network/how-to-make-swap.md)
 
