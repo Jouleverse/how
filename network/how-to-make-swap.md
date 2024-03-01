@@ -1,6 +1,6 @@
 # 如何创建虚拟内存(Swap)  
 
-Author | Jeff
+Author | Jeff([1688.j](https://jscan.jnsdao.com/#/jns/1688.j))
 -|-
 Reviewer | 教链
 

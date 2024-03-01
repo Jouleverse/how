@@ -1,6 +1,6 @@
 # Jouleverse Mainnet 节点搭建指南
 
-Author | 教链(evan.j)
+Author | 教链([evan.j](https://jscan.jnsdao.com/#/jns/evan.j))
 -|-
 Reviewer | ~
 
@@ -15,6 +15,8 @@ Reviewer | ~
 3. 下载节点软件包 jouleverse-node-20240229.tar.gz ，并启动节点
 4. 在节点群里通知其他节点投票，批准自己节点入网
 5. 入网后，填写主网节点信息采集表
+
+---
 
 ## 账户准备
 
@@ -116,7 +118,7 @@ sudo kill -INT `pidof geth`
 sudo docker ps
 
 # 清除旧容器(container)。记得回答Y (Yes，是)
-sudo docker prune
+sudo docker container prune
 
 # 重新用新版本软件包启动节点
 sudo docker run -v ~/jouleverse-node-20240229:/j -v ~/data:/data --name "jouleverse-mainnet" -p 30311:30311/tcp -p 30311:30311/udp -p 8501:8501 -d ubuntu:20.04 /j/geth --config /j/node-mainnet-witness.toml --snapshot=false --ignore-legacy-receipts 
@@ -274,7 +276,7 @@ sudo kill -INT `pidof geth`
 sudo docker ps
 
 # 清除旧容器(container)。记得回答Y (Yes，是)
-sudo docker prune
+sudo docker container prune
 
 # 重新用新版本软件包启动节点。请把下述命令中的签块地址0xddbe...替换成你自己的签块地址（与keystore中一致）
 sudo docker run -v ~/jouleverse-node-20240229:/j -v ~/data:/data --name "jouleverse-mainnet" -p 30311:30311/tcp -p 30311:30311/udp -d ubuntu:20.04 /j/geth --config /j/node-mainnet-miner.toml --snapshot=false --ignore-legacy-receipts --unlock '0xddbe0d8374c6180e1a62249ad5caa7e4b64c0f4c' --password /data/password-mainnet.txt --mine 

@@ -1,6 +1,6 @@
 # 如何找回nodekey文件
 
-Author | cijin
+Author | cijin([news.j](https://jscan.jnsdao.com/#/jns/news.j))
 -|-
 Reviewer | 教链
 
