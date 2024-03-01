@@ -10,7 +10,7 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 
 ## 节点网络
 
-[Jouleverse主网节点搭建指南](network/mainnet-setup-guide.md)
+[Jouleverse主网节点搭建指南](network/how-to-setup-jouleverse-node.md)
 
 [如何找回nodekey文件](network/how-to-recover-nodekey.md)
 
