@@ -4,9 +4,9 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 
 ## 知识库
 
-[markdown语法快速参考](contribute/quickstart.md)
-
 [如何向知识库贡献内容](contribute/tutorial.md)
+
+[markdown语法快速参考](contribute/quickstart.md)
 
 ## 节点网络
 
@@ -17,7 +17,9 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 [如何创建虚拟内存(Swap) ](network/how-to-make-swap.md)
 
 
-## PoWh
+## 贡献与激励
+
+[如何为Jouleverse做贡献并获得激励](incentive/how-to-contribute-to-jouleverse.md)
 
 
 ---
