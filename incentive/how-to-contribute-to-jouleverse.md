@@ -8,6 +8,7 @@ Reviewer | -
 
 > 激励工具是Wrapped Joule (WJ)，拆开后可以单向转换为Joule，作为gas使用。[点此查看WJ合约链上地址及当前存有量](https://jscan.jnsdao.com/#/address/0x7fba9BB966189Db8C4fE33B7bf67Bfa24203c6AD)
 
+---
 
 > 参与Jouleverse的大门是敞开的，任何人都可以做出贡献，并按规则获得激励。目前有两种途径：
 
@@ -16,7 +17,7 @@ Reviewer | -
 > 2. 参与到基础工作中去。贡献方法：加入核心贡献者组（即所谓core组），做[规范工作包](https://github.com/Jouleverse/workspace/blob/main/work-package-specs.mediawiki)中定义的工作。激励来源：PoWh工作量证明。
 
 
-> 概括地讲，PoWh工作量证明机制涵盖了如下几类基础工作内容：
+概括地讲，PoWh工作量证明机制涵盖了如下几类基础工作内容：
 
 Work工作 | Capability技能要求 | Principle激励原则 | Slash惩罚原则 | Checklist检查清单
 -|-|-|-|-
