@@ -2,6 +2,10 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 
 知识库分类内容：
 
+## 【置顶】
+
+[技术开发英雄帖](technology/hero-wanted.md)
+
 ## 知识库
 
 [如何向知识库贡献内容](contribute/tutorial.md)
