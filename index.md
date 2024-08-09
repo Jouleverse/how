@@ -2,15 +2,15 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 
 知识库分类内容：
 
-## 【置顶】
+## 入门必读
 
-[技术开发英雄帖](technology/hero-wanted.md)
+[Jouleverse(焦耳宇宙)漫游指南](contribute/how-to-ramp-up.md)
+
 
 ## 知识库
 
 [如何向知识库贡献内容](contribute/tutorial.md)
 
-[markdown语法快速参考](contribute/quickstart.md)
 
 ## 节点网络
 
@@ -25,12 +25,12 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 
 [如何为Jouleverse做贡献并获得激励](incentive/how-to-contribute-to-jouleverse.md)
 
+[技术开发英雄帖](technology/hero-wanted.md)
 
----
 
 #### 贡献者列表
 
-向本知识库提交过内容的贡献者有：
+向本知识库提交过内容的贡献者有：教链, cijin, Jeff
 
 #### 版权
 
