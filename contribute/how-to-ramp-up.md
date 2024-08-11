@@ -95,7 +95,7 @@ Jouleverse使用与以太坊完全兼容的web3地址格式。形如：0x70a35Ba
 
 Jouleverse的核心贡献者每周日下午14:00-15:30召开核心治理会议CGC，共同商议、推动和决策核心问题。会议为在线开放性会议，整个生态参与者都可以自由参会和参与讨论。[历次CGC会议纪要](https://github.com/Jouleverse/open-meetings)。
 
-注意：CGC的决策范围是核心事务，即由每月1200 J、PoWh工作量证明机制所支持的工作。生态的话题可以分享、讨论，但其决策权应归于[社区治理](https://github.com/Jouleverse/jips/blob/main/governance0.md)、JIPs、WJ质押投票等模块所组成的链上治理系统。
+注意：CGC的决策范围是核心事务，即由每月1200万J、PoWh工作量证明机制所支持的工作。生态发展——即由每月4800万J支撑的项目——相关的话题，亦可以上会分享、讨论，但其决策权应归于[社区治理](https://github.com/Jouleverse/jips/blob/main/governance0.md)、JIPs、WJ质押投票等模块所组成的链上治理系统。
 
 ## JIPs
 
