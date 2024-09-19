@@ -109,7 +109,7 @@ Jouleverse的节点网络由记账节点和见证节点组成。其中记账节�
 
 ## 成为核心贡献者，获取WJ空投
 
-Jouleverse的基本原则是“按劳分配”。通过劳动贡献，可以赚取WJ。具体请参考[如何为Jouleverse做贡献并获得激励](incentive/how-to-contribute-to-jouleverse.md)。
+Jouleverse的基本原则是“按劳分配”。通过劳动贡献，可以赚取WJ。具体请参考[如何为Jouleverse做贡献并获得激励](../incentive/how-to-contribute-to-jouleverse.md)。
 
 当你参与到核心事务中时，你就可以登记为一个核心贡献者（需要通过高级KYC认证）。
 
@@ -117,7 +117,7 @@ Jouleverse的基本原则是“按劳分配”。通过劳动贡献，可以赚�
 
 ---
 
-最简单的，可以先从搭建一个Jouleverse见证节点并入网开始，加入核心贡献者行列。具体参考：[Jouleverse主网节点搭建指南](network/how-to-setup-jouleverse-node.md)。
+最简单的，可以先从搭建一个Jouleverse见证节点并入网开始，加入核心贡献者行列。具体参考：[Jouleverse主网节点搭建指南](../network/how-to-setup-jouleverse-node.md)。
 
 还有哪些其他核心事务/工作需要大家的积极参与和贡献呢？可以参考[workspace specs](https://github.com/Jouleverse/workspace/blob/main/work-package-specs.mediawiki)。
 
