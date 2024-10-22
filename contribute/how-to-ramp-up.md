@@ -80,7 +80,7 @@ Jouleverse使用与以太坊完全兼容的web3地址格式。形如：0x70a35Ba
 
 ### 获取Joule作为燃料费
 
-1. 冷启动。当你刚刚进入Jouleverse，此时你的web3地址上没有任何燃料(J)。你需要找一位持有WJ的人，提取一点儿J到你的web3地址即可。<br> 为了方便新人，Jouleverse建立了行星系统。你可以点开[“Jouleverse行星系统”](https://github.com/Jouleverse/planetary-system/blob/main/README.md)，添加任何一位星球的球长微信，加入TA管理的星球。完成[JTI可信身份认证](https://github.com/Jouleverse/jti2/blob/main/README.md)后，球长将会向你的web3地址免费赠送0.017 J新手燃料。
+1. 冷启动。当你刚刚进入Jouleverse，此时你的web3地址上没有任何燃料(J)。你需要找一位持有WJ的人，提取一点儿J到你的web3地址即可。<br> 为了方便新人，Jouleverse建立了行星系统。你可以点开[“Jouleverse行星系统”](https://github.com/Jouleverse/planetary-system/blob/main/README.md)，添加任何一位星球的球长微信，加入TA管理的星球。完成[JTI可信身份认证](https://github.com/Jouleverse/jti2/blob/main/README.md)后，球长将会向你的web3地址免费赠送0.005 J新手燃料。
 2. 地址上有J和WJ时。你可以自行unwrap WJ，提取少量J到自己的地址上，作为燃料费使用。（提醒：不要一次性提取过多J！提取J是不可逆的，一旦提取只能消耗不能移动）
 
 ## 通证经济模型
