@@ -56,21 +56,22 @@ Jouleverse使用与以太坊完全兼容的web3地址格式。形如：0x70a35Ba
 
 有两种方法可以生成你的web3地址：
 
-1. 使用地址生成器 https://vanity-eth.tk/ 生成“keystore文件”和web3地址。参考刘教链超级小白课的[简明教程](https://github.com/hmisty/supernoobs/blob/main/materials/keystore_tut/README.md)。
-2. 直接安装web3钱包App，在App中生成“助记词”和web3地址。(TODO: 教程)
+1. 使用地址生成器 https://vanity-eth.tk/ 生成“keystore文件”和web3地址。参考[简明教程](https://github.com/hmisty/supernoobs/blob/main/materials/keystore_tut/README.md)。
+2. 直接安装web3钱包App，在App中生成“助记词”和web3地址。参考[《小教程：安装MetaMask并添加Jouleverse区块链网络》](https://mp.weixin.qq.com/s/9TkupLVX1nqZlX4fz1TziA)。
 
-市面上兼容以太坊的钱包App都可以。建议使用Metamask，又称小狐狸钱包。电脑建议安装chrome或firefox浏览器，到插件商店搜索metamask安装。苹果手机请切换海外苹果账号，然后到应用商店搜索metamask安装。安卓手机可以直接到Metamask的官方github下载安装包 —— [v7.27.0 apk链接](https://github.com/MetaMask/metamask-mobile/releases/download/v7.27.0/app-prod-release.apk)。
+市面上兼容以太坊的钱包App都可以。建议使用Metamask，又称小狐狸钱包。电脑建议安装chrome或firefox浏览器，到插件商店搜索metamask安装。苹果手机请切换海外苹果账号，然后到应用商店搜索metamask安装。安卓手机可以直接到[Metamask的官方github下载apk安装包](https://github.com/MetaMask/metamask-mobile/releases)。
 
 如果是用第一种方法生成的keystore文件，需要在安装完Metamask后，通过导入keystore文件的方式把web3地址导入Metamask中显示和使用。
 
 ### 连接到Jouleverse网络
 
-创建钱包并生成/导入了web3地址之后，还需要切换/连接到Jouleverse网络才能查看和管理该地址在Jouleverse的数字资产。需要两步：1. 添加RPC接口；2. 切换网络。
+创建钱包并生成/导入了web3地址之后，还需要切换/连接到Jouleverse网络才能查看和管理该地址在Jouleverse的数字资产。需要两步：1. 添加RPC接入点；2. 切换网络。
 
 添加Jouelverse网络的RPC有两个方法：
-1. 如果是插件版Metamask，直接在浏览器打开Jouelverse区块链浏览器，点击首页的下方的深蓝色按钮【点此一键添加Jouleverse区块链主网】。
-2. 手动添加：打开 设置 > 网络，点击【添加网络】> 手动添加一个网络，填写如下参数：，然后点击【保存】。
-    - 网络名称(Network name): Jouleverse
+1. 电脑浏览器安装MetaMask插件后，或者在手机MetaMask App的内置浏览器中，打开Jouelverse区块链浏览器，点击首页的下方的深蓝色按钮【点此一键添加Jouleverse区块链主网】。
+2. 或者，打开 [chainlist.org](https://chainlist.org/?search=jouleverse) ，搜索 jouleverse ，找到 Jouleverse Mainnet，点击“Connect Wallet”或“Add to MetaMask”一键添加。
+3. 或者，手动配置：打开 设置 > 网络，点击【添加网络】> 手动添加一个网络，填写如下参数：，然后点击【保存】。
+    - 网络名称(Network name): Jouleverse Mainnet
     - RPC (New RPC URL): https://rpc.jnsdao.com:8503
     - 链ID (Chain ID): 3666
     - 代币符号(Currency Symbol): J
