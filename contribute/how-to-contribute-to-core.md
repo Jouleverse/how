@@ -4,6 +4,8 @@ Author | 教链(打赏:[evan.j](https://jscan.jnsdao.com/#/jns/evan.j)), XXX
 -|-
 Reviewer | -
 
+Note: 对本文档内容有意见建议，请提交到github issue: https://github.com/Jouleverse/how/issues/5
+
 ## 说明
 
 这里维护一些active/open的github issues，都是向Jouleverse core做贡献（并获得相应工作量激励）的具体工作。如果你不清楚可以从哪里入手给Jouleverse core做贡献，那么希望本文可以帮助你按图索骥。
