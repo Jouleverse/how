@@ -6,6 +6,7 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 
 [Jouleverse(焦耳宇宙)漫游指南](contribute/how-to-ramp-up.md)
 
+[如何向Jouleverse core做贡献(并获得激励)](contribute/how-to-contribute-to-core.md)
 
 ## 知识库
 
@@ -21,12 +22,14 @@ Note: 欢迎来到Jouleverse知识库! 本知识库的网址是 https://how.joul
 [如何创建虚拟内存(Swap) ](network/how-to-make-swap.md)
 
 
+<!--
 ## 贡献与激励
 
 [如何为Jouleverse做贡献并获得激励](incentive/how-to-contribute-to-jouleverse.md)
 
 [技术开发英雄帖](technology/hero-wanted.md)
 
+-->
 
 #### 贡献者列表
 
