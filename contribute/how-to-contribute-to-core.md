@@ -84,22 +84,27 @@ issues: https://github.com/Jouleverse/how/issues
 贡献方法：
 - 贡献文档，解决上述issues列表中文档编写相关需求，并获得maintainers merge
 
-## 第三类工作：暂由core赞助的非核心工作
+### WP-10 JTI可信身份标识开发工作
 
-### WP-4 社群建设 & WP-10 JTI/星球相关开发工作
-
-issues:
-- 社群建设：https://github.com/Jouleverse/workspace/issues/4
-- JTI相关：https://github.com/Jouleverse/jti2/issues
-- 星球相关：https://github.com/Jouleverse/planetary-system/issues
+issues: https://github.com/Jouleverse/jti2/issues
 
 相关repo：
 - JTI (solidity): https://github.com/Jouleverse/jti2
+
+贡献方法：
+- 贡献代码，解决上述issues列表中链代码开发相关需求，并获得maintainers merge
+
+## 第三类工作：暂由core赞助的非核心工作
+
+### WP-4 社群发展建设
+
+issues: https://github.com/Jouleverse/workspace/issues/4
+
+相关repo：
 - 星球(markdown): https://github.com/Jouleverse/planetary-system
 
 贡献方法：
 - 成为星球球长，建设星球家园，发展用户，促进活跃
-- 贡献代码，解决上述issues列表中链代码开发相关需求，并获得maintainers merge
 
 ### WP-5 JNSDAO
 
