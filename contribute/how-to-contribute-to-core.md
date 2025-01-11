@@ -1,6 +1,6 @@
 # 如何向Jouleverse core做贡献
 
-Author | 教链(打赏:[evan.j](https://jscan.jnsdao.com/#/jns/evan.j)), XXX
+Author | 教链([evan.j](https://jscan.jnsdao.com/#/jns/evan.j)), XXX
 -|-
 Reviewer | -
 
