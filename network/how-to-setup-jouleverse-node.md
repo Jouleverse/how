@@ -413,6 +413,14 @@ sudo docker exec jouleverse-mainnet /j/geth --exec 'admin.nodeInfo' attach /data
 > clique.discard('替换为待批准节点的签块地址0x...')
 ```
 
+#### 查看投票情况
+
+节点控制台执行：
+
+```
+> clique.getSnapshot()
+```
+
 ## 版本
 
 * 1.10 evan.j: 2024.3.1 节点包升级为rc 20240229 - 支持tag
